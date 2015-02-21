@@ -1,0 +1,62 @@
+body {
+	background: url(../images/background.jpg) no-repeat;
+	background-size: cover;
+	
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+.content {
+	margin-bottom: 300px;
+}
+h1 {
+	text-align: center;
+}
+img {
+	max-width: 100%;
+}
+section {
+	max-width: 25%;
+	float: left;
+}
+button {
+	width: 80%;
+	text-align: center;
+	height: 50px;
+	font-size: 20px;
+	text-transform: uppercase;
+	transition: background-color 1s ease;
+  	background: red;
+  	border: none;
+  	border-radius: 10px;
+}
+button:hover {
+	background-color: green;
+}
+
+@media all and (max-width: 479px) and (min-width: 320px) {
+  h1 {
+  	font-size: 8px;
+  }
+  button {
+  	font-size: 8px;
+  }
+  }
+ @media all and (max-width: 699px) and (min-width: 480px) {
+  h1 {
+  	font-size: 15px;
+  }
+  button {
+  	font-size: 15px;
+  }
+  }
+
+ @media all and (max-width: 1000px) and (min-width: 700px) {
+  h1 {
+  	font-size: 20px;
+  }
+  button {
+  	font-size: 20px;
+  }
+  }
